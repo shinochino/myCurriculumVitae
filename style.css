@@ -2,10 +2,10 @@ body {
     font-family: 'Montserrat';
     background-color: lightgreen;
     margin: auto;
-    max-width: 25%;
+    max-width: 600px;
 }
 
-img {
+.image-centered {
     width: 250px;
     height: 300px;
     display: block;
@@ -13,23 +13,29 @@ img {
     margin-right: auto;
 }
 
-h1, h2 {
+.big-title {
     text-transform: uppercase;
     text-align: center;
-    font-weight: bolder;
+    font-size: 35px;
 }
 
-h2 {
+.small-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
     border-bottom: 5px double #0D98BA;
 }
 
-p {
+.text {
     text-align: justify;
-    text-justify: inter-word;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.motto p {
-    padding-left: 40px;
-    padding-right: 40px;
+.quote {
+    margin: 20px 15px;
+}
+
+.cite-text {
+    text-align: justify;
+    font-size: 18px;
 }
